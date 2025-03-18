@@ -1,0 +1,27 @@
+.appointment-button{
+    background-color: #4a5759;
+    border-width: 0px;
+    margin-right: 15px;
+    width:190px;
+    height:45px;
+    color: #f7e1d7;
+    }
+
+.appointment-button:hover{
+    background-color: #384547;
+    }
+
+.gallery-container{
+    display: grid;
+    background-color: #f7e1d7;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, 300px);;
+    justify-content: center;
+    padding: 20px;
+}
+
+.gallery-container img {
+    width: 300px;
+    height: auto;
+    object-fit: contain;
+}

@@ -1,0 +1,18 @@
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 20px;
+}
+
+.contact-form input {
+    margin-bottom: 15px;
+}
+
+#submit {
+    margin-top: 10px;
+}
+
+#message {
+    height: 300px
+}
