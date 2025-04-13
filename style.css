@@ -63,6 +63,7 @@ body p{
 
 .more-info-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin: 50px;
 }
@@ -71,6 +72,26 @@ body p{
     font-size:30px;
     color: #4a5759;
     text-align: center;
+}
+
+.more-info-body-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.more-info-body-container p{
+    font-size: 18px;
+    color: #4a5759;
+    text-align: left;
+    margin-right: 50px;
+    margin-top: 0px;
+}
+
+.more-info-body-container img{
+    height: 400px;
 }
 
 /*footer*/
