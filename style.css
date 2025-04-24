@@ -8,9 +8,22 @@
     color: #f7e1d7;
     }
 
-.appointment-button:hover{
-    background-color: #384547;
-    }
+.appointments {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4a5759;
+    width:250px;
+    height:80px;
+}
+
+.appointments p{
+    margin-top: 10px;
+    color: #f7e1d7;
+    font-size: 18px;
+}
 
 /*cover header*/
 .cover{
